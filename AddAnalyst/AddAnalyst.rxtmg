@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="AddAnalyst"
+      id="afeab5d4-2957-4dfd-bc53-fbc6ebce5f3a"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="AddAnalyst"
+      id="afeab5d4-2957-4dfd-bc53-fbc6ebce5f3a"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

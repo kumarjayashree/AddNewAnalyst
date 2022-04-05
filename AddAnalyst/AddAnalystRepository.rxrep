@@ -1,0 +1,413 @@
+﻿<repository
+id="57099b3e-9a3e-42c3-840a-b2e2be338160"
+name="AddAnalystRepository">
+	<codegen
+	classname="AddAnalystRepository"
+	namespace="AddAnalyst">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="d7495c70-89cf-474a-af6e-afdd27af1f82"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="0ebbfb86-efea-4718-9273-1537b863a27b"
+		isrooted="True"
+		name="ARchitectLogin"
+		refimgid="3d531c0b-5ae4-4378-bc38-8843fe98635a"
+		refpath="/dom[@domain='securedev.arinsights.net']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2f80afb0-749e-4f73-8e46-eae086018fb7"
+			name="Username"
+			refimgid="2e0f5640-28f0-4502-be9e-72d4f4726bb2"
+			refpath="/dom[@domain='securedev.arinsights.net']//input[#'Username']"
+			robustPath="/dom[@domain='securedev.arinsights.net']//input[#'Username']"
+			searchtimeout="38700ms">
+				/dom[@domain='securedev.arinsights.net']//input[#'Username']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="3940a1fe-f2fa-48eb-ac3e-9352ad65c88a"
+			name="LogIn"
+			refimgid="f4495cc1-806d-4830-8a69-72b5599cabb0"
+			refpath="/dom[@domain='securedev.arinsights.net']//form[#'loginForm']/fieldset/div[3]/button[@innertext='Log in']"
+			robustPath="/dom[@domain='securedev.arinsights.net']//form[#'loginForm']//button[@innertext='Log in']"
+			searchtimeout="38700ms">
+				/dom[@domain='securedev.arinsights.net']//form[#'loginForm']//button[@innertext='Log in']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="88267c56-ad03-481d-84ae-ccebfb75bb4b"
+			name="Password"
+			refimgid="ab03e1ae-fe06-45d6-b3bf-8a96a69c567d"
+			refpath="/dom[@domain='securedev.arinsights.net']//input[#'Password']"
+			robustPath="/dom[@domain='securedev.arinsights.net']//input[#'Password']"
+			searchtimeout="38700ms">
+				/dom[@domain='securedev.arinsights.net']//input[#'Password']
+			</item>
+			<basepath>
+				/dom[@domain='securedev.arinsights.net']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="4e76e530-55e4-4608-b431-1772403e952a"
+		isrooted="True"
+		name="Dashboard"
+		refimgid="fb11076c-ab0e-41d1-93be-e566d060461e"
+		refpath="/dom[@domain='dev.arinsights.net']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="0fb782f7-08b9-4a8e-ae98-07818cb468e5"
+			name="MphCphDdlType"
+			refimgid="f32b4a3c-6101-4c08-befa-19ac0f3d2ac7"
+			refpath="/dom[@domain='dev.arinsights.net']//select[#'mph_cph_ddlType']"
+			robustPath="/dom[@domain='dev.arinsights.net']//select[#'mph_cph_ddlType']"
+			searchtimeout="38700ms">
+				/dom[@domain='dev.arinsights.net']//select[#'mph_cph_ddlType']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="f49bce1b-1200-444d-89fe-4897baaf7bc4"
+			name="FirmVirtual"
+			refimgid="1648b5d6-c8dd-4a0b-9385-a1519fff5521"
+			refpath="/dom[@domain='dev.arinsights.net']//body[#'theBody']/ul[2]/li/a[@innertext='Firm Virtual']"
+			robustPath="/dom[@domain='dev.arinsights.net']//body[#'theBody']//a[@innertext='Firm Virtual']"
+			searchtimeout="38700ms">
+				/dom[@domain='dev.arinsights.net']//body[#'theBody']//a[@innertext='Firm Virtual']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e955f98a-61f5-4037-821b-58a1ee0e5884"
+			name="MphCphTxtEmail"
+			refimgid="92fd9914-985c-4293-a2b8-eb98dee12674"
+			refpath="/dom[@domain='dev.arinsights.net']//input[#'mph_cph_txtEmail']"
+			robustPath="/dom[@domain='dev.arinsights.net']//input[#'mph_cph_txtEmail']"
+			searchtimeout="38700ms">
+				/dom[@domain='dev.arinsights.net']//input[#'mph_cph_txtEmail']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="29650436-a221-405f-ace9-9b2de1fea657"
+			name="MphCphTxtTitle"
+			refimgid="b92abee5-7a8f-4d54-9217-6c253c4e4f9f"
+			refpath="/dom[@domain='dev.arinsights.net']//input[#'mph_cph_txtTitle']"
+			robustPath="/dom[@domain='dev.arinsights.net']//input[#'mph_cph_txtTitle']"
+			searchtimeout="38700ms">
+				/dom[@domain='dev.arinsights.net']//input[#'mph_cph_txtTitle']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="36e743be-a795-49ea-9e95-4b160127948a"
+			isrooted="True"
+			name="MphCphDivUpdate"
+			refpath="/dom[@domain='dev.arinsights.net']//div[#'mph_cph_divUpdate']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="a83f34da-493d-4a63-aaec-c5417841225f"
+				name="Ctl00Dollarctl00DollarmphDollarcphDollar"
+				refimgid="fbfcd192-64e8-483b-bc76-4de6bfdbb16d"
+				refpath="/dom[@domain='dev.arinsights.net']//div[#'mph_cph_divUpdate']/div[2]/div[1]/div[8]/input[@name='ctl00$ctl00$mph$cph$ucACTextBox1$txtAC']"
+				robustPath="/dom[@domain='dev.arinsights.net']//div[#'mph_cph_divUpdate']//input[@name='ctl00$ctl00$mph$cph$ucACTextBox1$txtAC']"
+				searchtimeout="38700ms">
+					/dom[@domain='dev.arinsights.net']//div[#'mph_cph_divUpdate']//input[@name='ctl00$ctl00$mph$cph$ucACTextBox1$txtAC']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="dcc90432-0cf9-430c-a082-659e6896b350"
+				name="Save1"
+				refimgid="fa3de3db-d4ca-4471-8f6b-6ff630494f74"
+				refpath="/dom[@domain='dev.arinsights.net']//div[#'mph_cph_divUpdate']/div[1]/div/a[@innertext='Save']"
+				robustPath="/dom[@domain='dev.arinsights.net']//div[#'mph_cph_divUpdate']/div[1]/div/a[@innertext='Save']"
+				searchtimeout="38700ms">
+					/dom[@domain='dev.arinsights.net']//div[#'mph_cph_divUpdate']/div[1]/div/a[@innertext='Save']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="e90e188c-7cd7-4a9b-bd9e-147cc272cccd"
+				name="Save"
+				refimgid="f378f169-98bb-4184-a602-89de710c63ce"
+				refpath="/dom[@domain='dev.arinsights.net']//div[#'mph_cph_divUpdate']/div[7]/a[@innertext='Save']"
+				robustPath="/dom[@domain='dev.arinsights.net']//div[#'mph_cph_divUpdate']/div[7]/a[@innertext='Save']"
+				searchtimeout="38700ms">
+					/dom[@domain='dev.arinsights.net']//div[#'mph_cph_divUpdate']/div[7]/a[@innertext='Save']
+				</item>
+				<basepath>
+					/dom[@domain='dev.arinsights.net']//div[#'mph_cph_divUpdate']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="1ce82da8-b6c8-496c-ba3f-fd16065ee320"
+			name="Analysts"
+			refimgid="9a7a0983-b458-472b-a0b7-aa514942f70b"
+			refpath="/dom[@domain='dev.arinsights.net']//ul[#'menuBarAN']/li[1]/a[@innertext='Analysts']"
+			robustPath="/dom[@domain='dev.arinsights.net']//ul[#'menuBarAN']/?/?/a[@innertext='Analysts']"
+			searchtimeout="38700ms">
+				/dom[@domain='dev.arinsights.net']//ul[#'menuBarAN']/?/?/a[@innertext='Analysts']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="0654d5a6-5ea0-4ae0-8534-6bee41c96250"
+			name="SearchForDummyLastDummyFirst"
+			refimgid="b474f79f-379b-4180-9311-d5f6120f1974"
+			robustPath="/dom[@domain='dev.arinsights.net']//body[#'theBody']//a[@innertext>'Search for DummyLast, Dum']"
+			searchtimeout="38700ms">
+				/dom[@domain='dev.arinsights.net']//body[#'theBody']//a[@innertext&gt;'DummyLast, Dum']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="fef1d481-48c9-4a4a-a78f-3c674cbd272f"
+			name="LogOut"
+			refimgid="50f0a6f7-94fa-4f6c-9d84-c05215e62a27"
+			refpath="/dom[@domain='dev.arinsights.net']//div[#'toolBar']/ul/li[2]/a[@innertext='Log out']"
+			robustPath="/dom[@domain='dev.arinsights.net']//div[#'toolBar']//a[@innertext='Log out']"
+			searchtimeout="38700ms">
+				/dom[@domain='dev.arinsights.net']//div[#'toolBar']//a[@innertext='Log out']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d0dd3034-7a95-4ba3-8e76-491ea88d2a53"
+			name="MphCphTxtFirstName"
+			refimgid="efdc66cf-8296-4584-a607-5d194657f740"
+			refpath="/dom[@domain='dev.arinsights.net']//input[#'mph_cph_txtFirstName']"
+			robustPath="/dom[@domain='dev.arinsights.net']//input[#'mph_cph_txtFirstName']"
+			searchtimeout="38700ms">
+				/dom[@domain='dev.arinsights.net']//input[#'mph_cph_txtFirstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,formtag"
+			capname="formtag"
+			id="e1be2679-d5bb-4ca7-8289-5553b2c221a3"
+			name="Form1"
+			refimgid="089c3441-bf00-4df7-9abf-38af6855c17f"
+			refpath="/dom[@domain='dev.arinsights.net']//form[#'form1']"
+			robustPath="/dom[@domain='dev.arinsights.net']//form[#'form1']"
+			searchtimeout="38700ms">
+				/dom[@domain='dev.arinsights.net']//form[#'form1']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="03dd0e71-44ba-480c-94bc-e78a3ad38a98"
+			name="DummyLastDummyFirstFirmVirtual"
+			refimgid="f412038b-0711-4793-a214-644ef257a4d8"
+			refpath="/dom[@domain='dev.arinsights.net']//body[#'theBody']/ul[3]/li[2]/a[@innertext>'DummyLast, DummyFirst - Firm']"
+			robustPath="/dom[@domain='dev.arinsights.net']//body[#'theBody']//a[@innertext>'DummyLast, DummyFirst - Firm']"
+			searchtimeout="38700ms">
+				/dom[@domain='dev.arinsights.net']//body[#'theBody']//a[@innertext&gt;'DummyLast, DummyFirst - Firm']
+			</item>
+			<item
+			addcaps="unknown,webelement,tdtag"
+			capname="tdtag"
+			id="80f69ba0-1a79-4c42-9af7-f59047a29a14"
+			name="DummyFirstDummyLast"
+			refimgid="49cd7abe-e598-42c1-bed6-16227b4c876c"
+			refpath="/dom[@domain='dev.arinsights.net']//div[#'mph_cph_ucFinderGrid_kGrid']/table/tbody/tr/td[@innertext='DummyFirst DummyLast']"
+			robustPath="/dom[@domain='dev.arinsights.net']//div[#'mph_cph_ucFinderGrid_kGrid']//td[@innertext='DummyFirst DummyLast']"
+			searchtimeout="38700ms">
+				/dom[@domain='dev.arinsights.net']//div[#'mph_cph_ucFinderGrid_kGrid']//td[@innertext='DummyFirst DummyLast']
+			</item>
+			<basepath>
+				/dom[@domain='dev.arinsights.net']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="abb066b6-a7f6-4ad0-baf0-5b3c037677b4"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="ba740b55-0554-423f-b225-35726f92e80a"
+			name="RanorexStudio2RunningWindows"
+			refimgid="08a9df5e-5a29-4e1d-b31b-d47ff7b757f9"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[12]"
+			robustPath="/menubar[@processname='explorer']//toolbar[@accessiblename='Running applications']/button[12]"
+			searchtimeout="38700ms">
+				/menubar[@processname='explorer']//toolbar[@accessiblename='Running applications']/button[12]
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="7aeccc7e-16d5-49c2-8498-44ac4b3d20c0"
+		isrooted="True"
+		name="Explorer1"
+		refpath="/form[@title='']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="12b5856c-fd24-4610-ab22-25c6440a5ccc"
+			name="AddAnalystRanorexStudio32bitA"
+			refimgid="4c4a2b48-03e9-4f1f-8dbb-c6b6f528930e"
+			refpath="/form[@title='']/list/listitem[@accessiblename>'AddAnalyst - Ranorex Studio']"
+			robustPath="/form[@title='']/?/?/listitem[@accessiblename>'AddAnalyst - Ranorex Studio']"
+			searchtimeout="38700ms">
+				/form[@title='']/?/?/listitem[@accessiblename&gt;'AddAnalyst - Ranorex Studio']
+			</item>
+			<basepath>
+				/form[@title='']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADSSURBVDhPpdK/DsFQGAXw8wg2L9KI9AHEZmhi
+MBgMBoN4AINNIhaCiXbwFCYjg5T4UyGqxCN4gEOjt7lDew33JL/lO9/XuxTaeThgIhvLwEEmWktP
+YINp7lNs/37kPAKT+E6Wb7dF3jvpXkN+N9tMdW2Sl4bS97k6dYBejTrAU5U6wGOFQm+xoTV/KoU7
+8g14KFMozAKaE18p3JFvwL1FIekgiXwD7koUzPEtJs9VHegWKeQHXkyeqzpwbVDI9d2YPFd10Q/9
+i9FdUYhGcVSdRoAPUdlLBd+8Ak0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container"
+		capname="container"
+		id="97325412-e45b-4427-b84b-0333ffc4693b"
+		isrooted="True"
+		name="Dropdown"
+		refimgid="58892c58-ca6b-4524-b536-7a885b2494c8"
+		refpath="/container[@caption='dropdown']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/container[@caption='dropdown']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABhUlEQVQ4T8WQvUsCYRzHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
+kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBF+OoJZCKlO/PY/PGaIXCQ19jw/3e7787sPdcX/OkCOC
+LiGOVruIZqsIhS2BJj6BFnuCnBOoJ3OdJQYFL6LR+ohOWxS9y7cQ/FHkBNVaL2qmfajUeFFF7nno
+uULNoHOD/gK1uit0zx1hdGwBeuEALpcLnPk4gkAkjrtwDPfheAGF5xiug1HcEC5DInzBJ0zMO8Hz
+PLid82fkky26fupo+me3mGDbL0pVqgw+c1DRgNbOBI6zOClp8gvFD5WSE8zw0id4o6SkkV8uhb5B
+GkrNBhPsnkZISSO3LAcVZKBUrzHBnueBlDRyy3JIgqkVJtj3hEhJ/3ZGIv0LdCeLwcklJnAeBvCa
+TOEl+UF4J7xJszz53W+BevEEPeMC2lUWifWCuZS24VV0qDbRN6JjAhpBEGAymWA0GsvCYDDAbDbD
+7XYzwT+G474AUqqnq7MiKz0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
